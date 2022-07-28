@@ -35,3 +35,43 @@ html{
     font-weight: 600;
 }
 /* ========Navigation CSS End========== */
+/* ========Home Section CSS Start========== */
+#home-section{
+    padding: 20px 0px;
+  }
+  #home-section .carousel .carousel-inner::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    height: 700px;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0, 0.5);
+    z-index: 1;
+  }
+  #home-section .carousel .carousel-inner .carousel-item{
+    min-height: 300px;
+  }
+  #home-section .carousel .carousel-inner .carousel-item img{
+    height: 700px;
+  }
+  #home-section .carousel .carousel-inner .carousel-caption{
+    z-index: 2;
+    bottom: 200px;
+  }
+  #home-section .carousel .carousel-inner .carousel-caption h2{
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 85px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  #home-section .carousel .carousel-inner .carousel-caption p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #F4F4F4;
+  }
+  /* ========Home Section CSS End========== */
