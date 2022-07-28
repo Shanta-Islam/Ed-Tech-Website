@@ -2,37 +2,36 @@
     margin: 0;
     padding: 0;
   }
-  body{
+body{
     font-family: 'Poppins', sans-serif;
-  }
-  html{
+}
+html{
     scroll-behavior: smooth;
-  }
-  .customBtn{
+}
+.customBtn{
     background: #289BDE;
     border: 1px solid #289BDE;
     border-radius: 5px;
     color: #fff;
-  }
-  .customBtn:hover{
+}
+.customBtn:hover{
     color: #289BDE;
     background-color: #fff;
-  }
-  
-  /* ========Navigation CSS Start========== */
-  .navbar .navbar-brand{
+} 
+/* ========Navigation CSS Start========== */
+.navbar .navbar-brand{
     font-weight: 600;
     font-size: 40px;
     color: #4A4A4A;
-  }
-  .navbar .navbar-collapse .nav-item .nav-link{
+}
+.navbar .navbar-collapse .nav-item .nav-link{
     font-weight: 400;
     font-size: 18px;
     color: #777777;
-  }
-  .navbar .navbar-collapse .register-btn{
+}
+.navbar .navbar-collapse .register-btn{
     border: 1px solid #289BDE;
     font-size: 20px;
     font-weight: 600;
-  }
-  /* ========Navigation CSS End========== */
+}
+/* ========Navigation CSS End========== */
