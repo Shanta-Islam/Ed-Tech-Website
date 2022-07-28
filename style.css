@@ -1,46 +1,45 @@
 *{
     margin: 0;
     padding: 0;
-  }
-  body{
+}
+body{
     font-family: 'Poppins', sans-serif;
-  }
-  html{
+}
+html{
     scroll-behavior: smooth;
-  }
-  .customBtn{
+}
+.customBtn{
     background: #289BDE;
     border: 1px solid #289BDE;
     border-radius: 5px;
     color: #fff;
-  }
-  .customBtn:hover{
+}
+.customBtn:hover{
     color: #289BDE;
     background-color: #fff;
-  }
-  
-  /* ========Navigation CSS Start========== */
-  .navbar .navbar-brand{
+}
+/* ========Navigation CSS Start========== */
+.navbar .navbar-brand{
     font-weight: 600;
     font-size: 40px;
     color: #4A4A4A;
-  }
-  .navbar .navbar-collapse .nav-item .nav-link{
+}
+.navbar .navbar-collapse .nav-item .nav-link{
     font-weight: 400;
     font-size: 18px;
     color: #777777;
-  }
-  .navbar .navbar-collapse .register-btn{
+}
+.navbar .navbar-collapse .register-btn{
     border: 1px solid #289BDE;
     font-size: 20px;
     font-weight: 600;
-  }
-  /* ========Navigation CSS End========== */
-  /* ========Home Section CSS Start========== */
-  #home-section{
+}
+/* ========Navigation CSS End========== */
+/* ========Home Section CSS Start========== */
+#home-section{
     padding: 20px 0px;
-  }
-  #home-section .carousel .carousel-inner::before{
+}
+#home-section .carousel .carousel-inner::before{
     content: "";
     position: absolute;
     width: 100%;
@@ -50,108 +49,107 @@
     left: 0;
     background-color: rgba(0,0,0, 0.5);
     z-index: 1;
-  }
-  #home-section .carousel .carousel-inner .carousel-item{
+}
+#home-section .carousel .carousel-inner .carousel-item{
     min-height: 300px;
-  }
-  #home-section .carousel .carousel-inner .carousel-item img{
+}
+#home-section .carousel .carousel-inner .carousel-item img{
     height: 700px;
-  }
-  #home-section .carousel .carousel-inner .carousel-caption{
+}
+#home-section .carousel .carousel-inner .carousel-caption{
     z-index: 2;
     bottom: 200px;
-  }
-  #home-section .carousel .carousel-inner .carousel-caption h2{
+}
+#home-section .carousel .carousel-inner .carousel-caption h2{
     font-weight: 600;
     font-size: 65px;
     line-height: 85px;
     text-align: center;
     color: #FFFFFF;
-  }
-  #home-section .carousel .carousel-inner .carousel-caption p{
+}
+#home-section .carousel .carousel-inner .carousel-caption p{
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
     text-align: center;
     color: #F4F4F4;
-  }
-  /* ========Home Section CSS End========== */
-  /* ========Course Section CSS Start========== */
-  #courses-section{
+}
+/* ========Home Section CSS End========== */
+/* ========Course Section CSS Start========== */
+#courses-section{
     padding: 90px 0px;
-  }
-  #courses-section h3{
+}
+#courses-section h3{
     font-weight: 600;
     font-size: 45px;
     line-height: 60px;
     color: #1D1D1D;
-  }
-  #courses-section .card .card-body .price-text{
+}
+#courses-section .card .card-body .price-text{
     font-weight: 600;
     font-size: 18px;
     line-height: 27px;
     color: #289BDE;
-  }
-  /* ========Course Section CSS End========== */
-  /* ========Explore Section CSS Start========== */
-  #explore-section{
+}
+/* ========Course Section CSS End========== */
+/* ========Explore Section CSS Start========== */
+#explore-section{
     padding: 70px 0px;
-  }
-  #explore-section .row{
+}
+#explore-section .row{
     background-color: #F4FAFD;
-  }
-  #explore-section .single-countdown-part h4{
+}
+#explore-section .single-countdown-part h4{
     font-weight: 600;
     color: #1D1D1D;
-  }
-  /* ========Explore Section CSS End========== */
-  /* ========Join Section CSS Start========== */
-  #join-section{
+}
+/* ========Explore Section CSS End========== */
+/* ========Join Section CSS Start========== */
+#join-section{
     padding: 10px 0px;
-  }
-  #join-section .row{
+}
+#join-section .row{
     background: #289BDE;
     border-radius: 5px;
-  }
-  #join-section h4{
+}
+#join-section h4{
     font-weight: 600px;
-  }
-  #join-section .btn{
+}
+#join-section .btn{
     background: #FFFFFF;
     border: 1px solid #FFFFFF;
     border-radius: 5px;
     color: #289BDE;
     font-weight: 600;
     font-size: 20px;
-  }
-  /* ========Join Section CSS End========== */
-  /* ========Meet Section CSS Start========== */
-  #meet-section{
+}
+/* ========Join Section CSS End========== */
+/* ========Meet Section CSS Start========== */
+#meet-section{
     padding: 70px 0px;
-  }
-  /* ========Meet Section CSS End========== */
-  /* ========Q&A Section CSS Start========== */
-  #QuesnAns-section{
+}
+/* ========Meet Section CSS End========== */
+/* ========Q&A Section CSS Start========== */
+#QuesnAns-section{
     padding: 20px 0px;
-  }
-  /* ========Q&A Section CSS End========== */
-  /* ========Companies Section CSS End========== */
-  #companies-section{
+}
+/* ========Q&A Section CSS End========== */
+/* ========Companies Section CSS End========== */
+#companies-section{
     padding: 40px 0px;
-  }
-  /* ========Companies Section CSS End========== */
-  /* ========Footer Section CSS Start========== */
-  .footer{
+}
+/* ========Companies Section CSS End========== */
+/* ========Footer Section CSS Start========== */
+.footer{
     background-color: #161616;
     padding: 110px 0px;
-  }
-  .footer .icon{
+}
+.footer .icon{
     font-size: 19px;
-  }
-  /* ========Footer Section CSS End========== */
-  
-  /* ========Media Query Start========== */
-  @media (max-width: 767px) {
+}
+/* ========Footer Section CSS End========== */
+/* ========Media Query Start========== */
+@media (max-width: 767px) {
     #home-section .carousel .carousel-inner .carousel-caption h2{
       font-size: 30px;
     }
@@ -167,8 +165,8 @@
     #companies-section{
       display: none;
     }
-  }
-  @media (max-width: 575px){
+}
+@media (max-width: 575px){
     #meet-section a{
       display: flex;
       justify-content: center;
@@ -176,5 +174,5 @@
     #meet-section .customBtn{
       display: block;
     }
-  }
-  /* ========Media Query End========== */
+}
+/* ========Media Query End========== */
